@@ -56,13 +56,13 @@ const useStyles = makeStyles((theme) => ({
     color: 'inherit',
   },
   inputInput: {
-    padding: theme.spacing(1, 1, 1, 0),
+    padding: theme.spacing(2, 2, 2, 1.5),
     // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
     transition: theme.transitions.create('width'),
     width: '100%',
     [theme.breakpoints.up('md')]: {
-      width: '20ch',
+      width: '100%',
     },
   },
   sectionDesktop: {
@@ -137,7 +137,7 @@ export default function PrimarySearchAppBar() {
             <FavoriteIcon />
           </Badge>
         </IconButton>
-        <p>Messages</p>
+        <p>Wishlist</p>
       </MenuItem>
       <MenuItem>
         <IconButton aria-label="show 11 new notifications" color="inherit">
@@ -145,7 +145,7 @@ export default function PrimarySearchAppBar() {
             <LocalMallIcon />
           </Badge>
         </IconButton>
-        <p>Notifications</p>
+        <p>Bag</p>
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
@@ -193,13 +193,13 @@ export default function PrimarySearchAppBar() {
           </div>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <IconButton href='wishlist' aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={4} color="secondary">
+            <IconButton href='wishlist' aria-label="" color="inherit">
+              <Badge  color="secondary">
                 <FavoriteIcon />
               </Badge>
             </IconButton>
-            <IconButton href='Shopping-bag' aria-label="show 17 new notifications" color="inherit">
-              <Badge badgeContent={17} color="secondary">
+            <IconButton href='Shopping-bag' aria-label="" color="inherit">
+              <Badge color="secondary">
                 <LocalMallIcon />
               </Badge>
             </IconButton>

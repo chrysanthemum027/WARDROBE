@@ -28,11 +28,11 @@ export default function ImgMediaCard(props) {
         <div className='grow'>
       <CardMedia
           component="img"
-          alt="Contemplative Reptile"
+          alt="Collection"
           height="500"
           width="600"
-          image="https://envato-shoebox-0.imgix.net/16f6/4940-b57e-4c90-8e4f-23d632c46f11/847p-1.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=12cc48588b03960f8b81b4c57dacc98d"
-          title="Contemplative Reptile"
+          image="https://images.unsplash.com/photo-1543095834-7445b8af8c2b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1002&q=80"
+          title="Tshirt"
         />
         </div>
         <div className='grow'>
